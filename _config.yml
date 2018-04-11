@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+title: Holt Productions
+email: "lukas-holt@live.com"
+description: "Holt Productions"
+url: "https://lukasholt92.github.io"
+baseurl: "/lukasholt92.github.io"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -15,10 +15,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   holtproductions
   avatar: avatar.png
   favicon: favicon.ico
-  info: photography website template
+  info: Holt Productions
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://lukasholt92.github.io/lukasholt92.github.io/gallery/"
+  - JOURNAL: "https://lukasholt92.github.io/lukasholt92.github.io/journal/"
+  - ABOUT: "https://lukasholt92.github.io/lukasholt92.github.io/about/"
 
 # All translation keys
 translations:
@@ -56,7 +56,7 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
+gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 

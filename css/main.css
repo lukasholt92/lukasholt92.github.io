@@ -115,7 +115,7 @@ hr.small {
   .navbar-custom.is-fixed .navbar-brand:hover {
     color: #0085a1;
   }
-  
+
   .navbar-custom.is-fixed .nav li a:hover {
     color: #0085a1;
   }
@@ -403,6 +403,5 @@ body {
   webkit-tap-highlight-color: #0085a1;
 }
 .fa-stack-2x {
- color: black;
+ color: white;
 }
-

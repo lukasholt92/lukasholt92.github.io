@@ -77,7 +77,14 @@ images:
 
 <div id="footer" role="contentinfo">
 		<ul class="soc-icons">
-
+                {% if site.instagram_username %}
+      <li>
+      <a href="https://instagram.com/{{ site.instagram_username }}" style="
+      color:#dddddd; target="_blank" title="Instagram">
+             <i class="fa fa-instagram"></i>
+           </span>
+      </a></li>
+      {% endif %}
                  {% if site.facebook_username %}
 			<li>
    <a href="https://facebook.com/{{ site.facebook_username }}" style="
@@ -94,14 +101,6 @@ color:#dddddd; target="_blank" title="Twitter">
                      </span>
 </a></li>
     {% endif %}
-                {% if site.instagram_username %}
-			<li>
-   <a href="https://instagram.com/{{ site.instagram_username }}" style="
-color:#dddddd; target="_blank" title="Instagram">
-                       <i class="fa fa-instagram"></i>
-                     </span>
-</a></li>
-    {% endif %}
                     {% if site.flickr_username %}
 						<li>
    <a href="https://flickr.com/photos/{{ site.flickr_username }}" style="
@@ -110,7 +109,7 @@ color:#dddddd; target="_blank" title="Flickr">
                      </span>
  </a></li>
      {% endif %}
-                    {% if site.deviantart_username %}
+  <!--                  {% if site.deviantart_username %}
 			<li>
    <a href="http://{{ site.deviantart_username }}.deviantart.com" style="
 color:#dddddd; target="_blank" title="DeviantArt">
@@ -124,6 +123,7 @@ color:#dddddd; target="_blank" title="Github">
               <i class="fa fa-github"></i>
                      </span>
                    {% endif %}
+                 -->
 <li>
     <a href="mailto:{{ site.email }}" style="
 color:#dddddd; target="_blank" title="Email">

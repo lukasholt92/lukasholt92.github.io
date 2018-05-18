@@ -8,8 +8,11 @@
 
                     {% if site.facebook_username %}
                     <li>
-                        <a href="https://facebook.com/{{ site.facebook_username }}" title="Facebook">
-                            <img align="center" alt="Facebook" src="../logos/flogo58.png"/>
+                        <a href="https://facebook.com/{{ site.facebook_username }}" data-toggle="tooltip" title="Facebook">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
                         </a>
                     </li>
                     {% endif %}

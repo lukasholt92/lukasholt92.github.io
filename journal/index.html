@@ -12,11 +12,12 @@ header-img: "img/writing-bg.jpg"
 
 <body class="journal">
 <div class="archive">
-  <h1 class="archive-title" style="display:inline-block;"> POSTS </h1>
+  <h1 class="archive-title" style="display:inline-block;"> Posts </h1>
 
+<!--
 <div style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; display:inline-block;margin-left:.5em;">
     Browse by <a href="{{ site.baseurl }}/journal/category/">Category</a> or <a href="{{ site.baseurl }}/journal/tag/">Tag</a>
-  </div>
+  </div> -->
 </div>
 
 <section class="section--postsWrapper">
@@ -29,25 +30,25 @@ header-img: "img/writing-bg.jpg"
 
  {% assign post = site.posts.first %}
   {% assign content = post.content %}
-  
+
 <li class="block">
 <div class="postArticle-wrapper">
 
 <div class="post-preview" style="border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #530720;">
-    
+
 <a href="{{ post.url | prepend: site.baseurl }}">
         {% if post.image.feature %}
 	<img src="{{ site.baseurl }}/img/postcover/{{ post.image.feature }}">
 	{% endif %}
- 
- 
+
+
         <p class="post-title" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 16px; margin-left: 1em;"> &#9658; {{ post.title }}
         </p>
 </a>
         {% if post.subtitle %}
         <p class="post-subtitle" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 12px; margin-left: 1em;"> {{ post.subtitle }}</p>
         {% endif %}
-    
+
     <p class="post-meta" style="font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 10px; margin-left: 1em;"> Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
 
@@ -81,6 +82,6 @@ header-img: "img/writing-bg.jpg"
 {% endif %}
 
 <br>
-<h6>Image Source: <a href="https://unsplash.com/photos/8muUTAmcWU4">UNSPLASH</a>
+<!-- <h6>Image Source: <a href="https://unsplash.com/photos/8muUTAmcWU4">UNSPLASH</a> -->
 
 </body>

@@ -7,8 +7,6 @@ image:
   feature: "journal1.jpg"
 date:       2018-05-30
 header-img: "img/postcover/journal1.jpg"
-tags: [tag03]
-categories: [cat04]
 comments: false
 ---
 

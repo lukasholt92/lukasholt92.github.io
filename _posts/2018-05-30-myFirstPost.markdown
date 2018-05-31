@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "This is my first redesigned post"
+title:      "This is my first redesigned and edited post"
 subtitle:   "Holt Productions"
 active: journal
 image:

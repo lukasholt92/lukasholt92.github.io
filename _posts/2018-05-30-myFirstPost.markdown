@@ -10,7 +10,7 @@ header-img: "img/postcover/journal1.jpg"
 comments: false
 ---
 
-<p>"You're a sly dog!" said Passepartout, winking at him.</p>
+<p>"You're a sly and mad dog!" said Passepartout, winking at him.</p>
 
 <p>This expression rather disturbed Fix, without his knowing why.  Had the Frenchman guessed his real purpose?  He knew not what to think.  But how could Passepartout have discovered that he was a detective?  Yet, in speaking as he did, the man evidently meant more than he expressed.</p>
 
